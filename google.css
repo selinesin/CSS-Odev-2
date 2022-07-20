@@ -1,0 +1,38 @@
+.box-1{
+    height: 80px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 2px;
+    background-color: #EEEEEE;
+    text-align: center;
+}
+
+.column-1 {
+    float: left;
+    height: 67px;
+    width: 37%;
+    background-color: #7EE5DA;
+    padding-top: 13px;
+
+}
+.column-2 {
+    float: left;
+    width: 23%;
+    height: 75px;
+    background-color: #70CCC2;
+    padding-top: 5px;
+    font-size: small;
+}
+.column-3 {
+    float: left;
+    height: 80px;
+    width: 40%;
+    background-color: #62B3AA;
+    font-size: small;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
